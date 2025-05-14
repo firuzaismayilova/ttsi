@@ -1,0 +1,64 @@
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <!-- Subject Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle st" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="color: #e0870b;">
+              <i class="fa-solid fa-book-open"></i>
+              <span>Subject</span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+              <!-- Web Design Submenu -->
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Web Design</a>
+              </li>
+
+              <li><a class="dropdown-item" href="#">Apps Design</a></li>
+              <li><a class="dropdown-item" href="#">Marketing</a></li>
+              <li><a class="dropdown-item" href="#">Research</a></li>
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+            </ul>
+          </li>
+
+          <!-- Other Nav Items -->
+          <li class="nav-item"><a class="nav-link" href="#" style="color: #e0870b;">Beynalxalq Standartlar</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Təlim-tədris</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sertifikatlaşdırma</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Onlayn müraciət</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sertifikatın təsdiqi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Xəbərlər və media</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Əlaqə</a></li>
+        </ul>
+
+        <!-- Join Now Button -->
+        <button type="button" class="btn" style="background-color: #e0870b; color: white;">
+          Join Now
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
