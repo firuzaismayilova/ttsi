@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f8f8;
+  background-color: white;
   padding: 20px 40px;
   border-bottom: 1px solid #ddd;
   flex-wrap: wrap;
@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
-    margin-top: 10px;
+
   }
 
   .btn-join {
@@ -46,8 +46,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo .e {
-  color: rgb(255, 102, 0);
+.socar-logo {
+  height: 57px;
 }
 
 .logo a {
@@ -74,7 +74,7 @@ body {
 .item1 i {
   font-size: 40px;
   margin-right: 10px;
-  color: rgb(255, 102, 0);
+  color: #00b5ad;
 }
 
 .item1 strong {
@@ -92,11 +92,13 @@ body {
 
 /* === NAVBAR === */
 .nav-item :hover {
-  color: rgb(255, 102, 0) !important;
+  color: #00b5ad;
+  !important;
 }
 
 .dropdown-menu :hover {
-  color: rgb(255, 102, 0) !important;
+  color: #00b5ad;
+  !important;
 
 }
 
@@ -121,6 +123,7 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  height: 150px !important;
 }
 
 .subject-card img {
@@ -147,6 +150,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .subject-card .overlay h5 {
@@ -162,10 +166,10 @@ body {
 .subject-card:hover img {
   transform: scale(1.2);
   transition: 0.7s;
-  
+
 }
 
-.subject-card .overlay{
+.subject-card .overlay {
   opacity: 1 !important;
 }
 
@@ -227,7 +231,7 @@ body {
   height: 36px;
   width: 36px;
   align-items: center;
-  
+
 }
 
 .social-icons a:hover {
@@ -240,24 +244,29 @@ body {
   color: #fff !important;
 }
 
-
 .blog-card {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-
+  height: 350px;
+  /* Kartların hündürlüyü */
 }
 
 .blog-card img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  /* Kartın tam hündürlüyü */
   object-fit: cover;
   border-radius: 10px;
   display: block;
   z-index: 1;
   position: relative;
+  transition: transform 0.7s ease;
 }
 
+.blog-card:hover img {
+  transform: scale(1.2);
+}
 
 .blog-card .overlay {
   position: absolute;
@@ -265,7 +274,7 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(68, 66, 90, 0), #44425a) !important;
+  background: linear-gradient(rgba(68, 66, 90, 0), black) !important;
   color: white;
   padding: 20px;
   display: flex;
@@ -274,27 +283,22 @@ body {
   box-sizing: border-box;
   z-index: 2;
   opacity: 1;
-
+  border-radius: 10px;
 }
 
 .blog-card .overlay h5 {
   font-size: 1.25rem;
   margin-bottom: 5px;
   font-weight: bold;
-
 }
 
 .blog-card .overlay .data {
   font-size: 0.9rem;
-  color: rgb(255, 102, 0);
+  color: #00b5ad;
   font-weight: bold;
   margin-top: 10px;
 }
 
-.blog-card:hover img {
-  transform: scale(1.2);
-  transition: 0.7s;
-}
 
 
 
@@ -311,17 +315,16 @@ body {
   margin-right: 2px;
 }
 
-.contact2{
-  background-color: #44425a  !important;
+.contact2 {
+  background-color: black !important;
   margin-top: 90px;
 }
 
-.list-1{
+.list-1 {
   list-style-type: none;
 }
 
-.fa-solid fa-angle-right ::before{
-  color: white ;
+.fa-solid fa-angle-right ::before {
+  color: white;
 
 }
-
